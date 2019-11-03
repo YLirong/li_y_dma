@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+
+header {
+  background-color: pink;
+font-size: 20px;
+  padding: 9px;
+  text-align:center;
+margin: 0;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+font-size: 18px;
+  padding-left: 60px;
+
+}
+
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+  list-style-type:none;
+    /* display: list-item; */
+    line-height: 10px;
+    padding: 0px 100px 0px 0px;
+
+
+}
+ .bg {
+  background: white;
+
+   padding: 30px;
+/* margin:0 auto; */
+   display: flex;
+   align-items: flex-start;
+   /* flex-direction: row; */
+   /* justify-content: center; */
+
+}
+ .bg-pic{
+height: 600px;
+  width: 45vw;
+margin-right: 4.5em;
+padding-left: 20px;
+}
+
+ .body{
+  flex:2;
+}
+
+.bg-heading{
+
+    margin: 0 0 .5em;
+
+}
+
+
+.box {
+   display: flex;
+   justify-content:  center;
+  align-items: center;
+     flex-direction: column;
+  background-color: white;
+  margin: 10px 200px;
+width: 70vw;
+  text-align: center;
+  line-height: 30px;
+  /* font-size: 16px; */
+ padding: 30px;
+border: 2px dashed pink;
+
+}
+
+
+
+img{
+  align-content: center;
+  width: 300px;
+  margin: 0px;
+}
+.box.selected{
+   align-items: stretch;
+}
