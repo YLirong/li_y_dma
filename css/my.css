@@ -7,6 +7,10 @@ body {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
+  /* background: url("../img/fg.jpg");
+  background-position: center;
+  background-size: cover; */
+
 }
 
 /* HEADER */
@@ -47,34 +51,31 @@ nav ul li {
 }
  .bg {
   background: white;
-
    padding: 30px;
-
    display: flex;
    align-items: flex-start;
-   /* flex-direction: row; */
-   /* justify-content: center; */
+  text-align: center;
 }
  .bg-pic{
 height: 600px;
-  width: 50vw;
-margin-right: 4.5em;
+  width: 35vw;
+/* margin-right: 4.5em; */
 padding-left: 20px;
 }
 
  .body{
   flex:1;
 }
-
+/*
 .bg-heading{
-/* text-align: center; */
-    margin: 10px 0 .5em;
 
-}
+    margin: 10px 0 ;
+
+} */
 p.center{
    text-align: center;
-   line-height: 30px;
-text-indent: 40px;
+   line-height: 40px;
+text-indent: 60px;
 }
 
 .box {
@@ -109,11 +110,10 @@ img{
 }
 a.one:visited{
   color:lightblue;
-
 }
 
 a.one:link{
     text-decoration: none;
-
+color:lightblue;
   font-size: 25px;
 }
